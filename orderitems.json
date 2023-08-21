@@ -1,0 +1,11 @@
+[
+    {
+        "model": "store_app.orderitem",
+        "pk": 1,
+        "fields": {
+            "order": 1,
+            "product": 1,
+            "quantity": 2
+        }
+    }
+]

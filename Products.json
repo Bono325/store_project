@@ -1,0 +1,22 @@
+[
+    {
+        "model": "store_app.product",
+        "pk": 1,
+        "fields": {
+            "name": "Smartphone",
+            "description": "High-end smartphone",
+            "price": "999.99",
+            "category": 1
+        }
+    },
+    {
+        "model": "store_app.product",
+        "pk": 2,
+        "fields": {
+            "name": "T-shirt",
+            "description": "Cotton T-shirt",
+            "price": "19.99",
+            "category": 2
+        }
+    }
+]
