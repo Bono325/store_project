@@ -1,13 +1,16 @@
 import logo from './logo.svg';
-import NavBar from './componets/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Example from './componets/Example';
+import './Template/assets/css/main.css'
 import './App.css';
+import Header from './componets/Header';
+import Cart from './componets/Cart';
+import Scripts from './componets/Scripts';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Header />
+      <Cart />
+      <Scripts />
     </div>
   );
 }
