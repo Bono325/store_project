@@ -1,16 +1,19 @@
-import logo from './logo.svg';
 import './Template/assets/css/main.css'
 import './App.css';
 import Header from './componets/Header';
 import Cart from './componets/Cart';
-import Scripts from './componets/Scripts';
+import MainContent from './componets/MainContent';
+import SIdeBar from './componets/SIdeBar';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Cart />
-      <Scripts />
+      <div id = "wrapper" >
+        <Header />
+        <Cart />
+        <MainContent />
+        <SIdeBar />
+      </div>
     </div>
   );
 }

@@ -3,78 +3,48 @@ import React, { useState, useEffect } from 'react';
 function Header() {
 
   return (
-    <div>
+    <em>
         <header id="header">
-            <h1><a href="index.html">Future Imperfect</a></h1>
-            <nav class="links">
+            <h1><a href="index.html">Big Brain</a></h1>
+            <nav className="links">
                 <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Ipsum</a></li>
-                    <li><a href="#">Feugiat</a></li>
-                    <li><a href="#">Tempus</a></li>
-                    <li><a href="#">Adipiscing</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Become a Merchent</a></li>
+                </ul>
+
+
+            </nav>
+            <nav className='links'>
+                <ul>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">My Account</a></li>
                 </ul>
             </nav>
-            <nav class="main">
+            <nav className="main">
                 <ul>
-                    <li class="search">
-                        <a class="fa-search" href="#search">Search</a>
+                    <li className="search">
+                        <a className="fa-search" href="#search">Search</a>
                         <form id="search" method="get" action="#">
                             <input type="text" name="query" placeholder="Search" />
                         </form>
                     </li>
-                    <li class="menu">
-                        <a class="fa-bars" href="#menu">Menu</a>
+                    <li className="menu">
+                        <a className="fa-bars" href="#menu">Menu</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <section id="menu">
         
-        <section>
-            <form class="search" method="get" action="#">
-                <input type="text" name="query" placeholder="Search" />
-            </form>
-        </section>
-        
-        <section>
-            <ul class="links">
-                <li>
-                    <a href="#">
-                        <h3>Lorem ipsum</h3>
-                        <p>Feugiat tempus veroeros dolor</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <h3>Dolor sit amet</h3>
-                        <p>Sed vitae justo condimentum</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <h3>Feugiat veroeros</h3>
-                        <p>Phasellus sed ultricies mi congue</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <h3>Etiam sed consequat</h3>
-                        <p>Porta lectus amet ultricies</p>
-                    </a>
-                </li>
+        {/* <section>
+            <ul className="actions stacked">
+                <li><a href="#" className="button large fit">Log In</a></li>
             </ul>
-        </section>
-        
-        <section>
-            <ul class="actions stacked">
-                <li><a href="#" class="button large fit">Log In</a></li>
-            </ul>
-        </section>
+        </section> */}
 
-</section>
-    </div>
+    </em>
 
   );
 }
